@@ -1,0 +1,191 @@
+\documentclass{beamer}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+
+\newcommand{\PI}{{$\pi$}}
+
+\title[Presentación con Beamer]{Presentación sobre \PI usando BEAMER}
+\author[Alba]{Alba Tomé Rodríguez}
+\institute{ULL}
+\date[24-04-2014]{24 de abril de 2014}
+
+\usetheme{Madrid}
+
+\definecolor{MiVioleta}{RGB}{122,59,122}
+\definecolor{MiAzul}{RGB}{0,88,147}
+\definecolor{MiGris}{RGB}{56,61,66}
+\setbeamercolor{palette primary}{use=structure,fg=white,bg=MiVioleta}
+\setbeamercolor{palette secundary}{use=structure,fg=white,bg=MiAzul}
+\setbeamercolor{palette tertiary}{use=structure,fg=white,bg=MiGris}
+
+\begin{document}
+
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}
+\frametitle{Indice}
+\tableofcontents[pausesections]
+\end{frame}
+
+\section{Introducción}
+
+\begin{frame}
+\frametitle{Introducción}
+
+El número pi es la relación entre la longitud de una circunferencia y su diámetro, en geometría euclidiana. Es un número irracional y una de las constantes matemáticas más importantes. Se emplea frecuentemente en matemáticas, física e ingeniería. El valor numérico de \PI, truncado a sus primeras cifras, es el siguiente:
+
+\centerline{3,14159265358979323846 \dots}
+
+El valor de \PI se ha obtenido con diversas aproximaciones a lo largo de la historia, siendo una de las constantes matemáticas que más aparece en las ecuaciones de la física, junto con el número e. Cabe destacar que el cociente entre la longitud de cualquier circunferencia y la de su diámetro no es constante en geometrías no euclídeas.
+
+
+\end{frame}
+
+\section{Historia del número \PI}
+\begin{frame}
+\frametitle{Historia del número \PI}
+
+El primer matemático que empleó \PI como símbolo del cociente entre el perímetro de un círculo y la longitud de su diámetro fue Leonhard Eüler, en 1737, siendo admitido como símbolo estándar.
+\end{frame}
+
+\subsection{El número \PI en la antigüedad}
+\begin{frame}
+\frametitle{El número \PI en la antigüedad}
+
+Se supone que los primeros calculistas determinaron ese cociente dibujando una circunferencia y dividiendo directamente las longitudes del diámetro y de la circunferencia, empleando métodos rudimentarios como rodear la circunferencia con una cuerda y posteriormente midiéndola.
+
+Los antiguos hebreos cuando iban a construir el Templo de Salomón empleaban solamente números redondos, pues no estaban habituados al cálculo con fracciones, Así, en el capítulo 4 del 2º Libro de Crónicas ellos describen un "mar de fundición" que formaba parte del Templo y que, presumiblemente, era una especie de recipiente de forma circular. El comienzo de la descripción figura en el segundo versículo de ese capítulo y dice: "También hizo un mar de fundición, el cual tenía diez codos de un borde al otro, enteramente redondo; su altura era de cinco codos, y un cordón de treinta codos de largo lo ceñía alrededor", así que para los hebreos \PI=3.
+\end{frame}
+
+\subsection{El número \PI en la antigüedad}
+\begin{frame}
+\frametitle{El número \PI en la antigüedad}
+Los hombres de la antigüedad con cierta cultura arquitectónica, sobre todo egipcios y mesopotámicos sabían que el valor de \PI era algo mayor que 3. El mejor valor que obtuvieron fue 22/7.
+
+En su forma decimal 22/7 es 3,142857 \dots, siendo \PI=3,141592 \dots, es decir que 22/7 representa una diferencia de una parte en 2.500.
+
+Los griegos desarrollaron un sistema geométrico que perfeccionó el rudimentario método de medición directa.\cite {link2}
+\end {frame}
+
+\subsection{El método de Arquímedes}
+\begin{frame}
+\frametitle{El método de Arquímedes}
+
+Arquímedes de Siracusa empleó el "método de exhaución" para calcular el número \PI:
+
+Imaginemos un triángulo equilátero inscrito en una circunferencia, su perímetro es \centerline {3$\sqrt{3/2}= 2,598076 \dots$}
+menor que el perímetro de la circunferencia y menor que \PI.
+
+Dividimos en dos a cada uno de los arcos que unen los vértices del triángulo, de modo que al unirlos inscribimos un hexágono regular dentro de la circunferencia, su perímetro es 3, y es mayor que el del triángulo pero todavía menor que el de la circunferencia. Continuando con este procedimiento se pueden llegar a inscribir polígonos regulares de 12, 24, 48 \dots lados.
+
+El espacio entre el polígono y la circunferencia irá disminuyendo cada vez más (dicho espacio se agota hasta quedar "exhausto"; de allí el nombre del método) y el polígono se acercará a la circunferencia progresivamente.
+\end{frame}
+
+\subsection{El método de Arquímedes}
+\begin{frame}
+\frametitle{El método de Arquímedes}
+
+El mismo método se aplica con polígonos circunscritos y tangentes a la circunferencia.
+
+Arquímedes fue delimitando la medida de la circunferencia entre una sucesión de números que se le acercaban desde abajo y desde arriba. Arquímedes trabajó con polígonos de noventa y seis lados, y demostró que 22/7>\PI>223/71. El promedio de estas dos fracciones es 3123/994=3,141851 \dots superando el valor de \PI en un 0,0082 por ciento.
+
+Hasta el siglo XVI no se descubrió la fracción 355/113=3,14159292 \dots superando al valor verdadero en 0,000008 por ciento.
+\end{frame}
+
+\subsection{El número \PI en la Edad Moderna y Contemporánea}
+\begin{frame}
+\frametitle{El número \PI en la Edad Moderna y Contemporánea}
+
+\begin{itemize}
+\item François Vieta, en el siglo XVI, puso en práctica el equivalente algebraico del método geométrico de Arquímedes, en lugar de usar polígonos, él dedujo una serie infinita de fracciones para calcular el valor numérico de \PI. Cuanto más grande sea el número de términos que uno utilice en el cálculo, más cerca estará del valor de \PI.
+
+\item En 1673 Leibniz dedujo la siguiente serie:
+
+\centerline{\PI = 4/1 - 4/3 + 4/5 - 4/7 + 4/9 - 4/11 + 4/13 - 4/15 \dots}
+
+Los matemáticos empezaron a buscar series infinitas convergentes, para demostrar que \PI poseía cifras decimales periódicas.
+
+\item En 1593 ya Vieta había empleado una serie para calcular \PI con 17 decimales: 3,14159265358979323. En 1615 Ludolf von Ceulen utilizó una serie infinita y obtuvo 35 decimales. Tampoco descubrió signo alguno de periodicidad. En 1717 Abraham Sharp calculó \PI con72 decimales sin síntoma alguno de periodicidad.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{El número \PI en la Edad Moderna y Contemporánea}
+
+\begin{itemize}
+\item En 1761 Lambert demostró que \PI es un número irracional por lo que el valor verdadero solamente se podía expresar corno una serie infinita de decimales.
+
+\item A mediados del siglo XIX George von Vega obtuvo \PI con 140 decimales; Zacharias Dase lo calculó hasta 200 decimales y Richter llegó hasta 500 decimales.
+
+\item En 1873 William Shanks obtuvo 707 decimales. En 1882 Lindemann demostró que \PI es transcendente, esto es, no es la solución de ninguna ecuación polinómica con coeficientes enteros.
+
+\item En 1949 se introdujeron una de las series infinitas en la computadora ENIAC y obtuvieron el valor con 2035 cifras decimales, descubriéndose un error en la cifra 527 del valor de Shanks, con lo cual las restantes cifras a partir de esa posición eran erróneas.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{El número \PI en la Edad Moderna y Contemporánea}
+
+\begin{itemize}
+\item En 1955 un ordenador más potente calculó \PI con 10.017 cifras decimales.
+
+\item En la actualidad los potentes ordenadores son capaces de calcular del orden de billones de cifras\footnote{pepito de los palotes} decimales de \PI, lo cual a un profano en la ciencia puede parecer absurdo, pero que en campos de la ciencia como la astronomía, encierra enorme importancia para el cálculo de distancias precisas de galaxias, nebulosas, cúmulos estelares, quasars y demás estructuras del Universo conocido.
+\end{itemize}
+\end{frame}
+
+\section{Algunas curiosidades}
+\begin{frame}
+\frametitle{Algunas curiosidades}
+
+Pero el cálculo del valor de \PI es sólo una pequeña parte de su historia. Han sido sus propiedades las que han hecho que esta constante despierte tanta curiosidad.
+Quizá el problema más asociado con \PI es el famoso problema de la cuadratura del círculo, consistente en encontrar la manera de crear un cuadrado con el mismo área que un círculo dado usando sólo regla y compás. Resolver la cuadratura del círculo obsesionó a generaciones de matemáticos durante veinticuatro siglos hasta que von Lindemann probó que \PI es un número trascendente (no es solución de ninguna ecuación polinómica con coeficientes racionales) y por tanto la cuadratura del círculo es imposible.
+Hasta 1761 no se pudo probar que \PI es irracional, o sea, no existen dos números naturales tales que a/b=\PI, y su trascendencia no fue probada hasta 1882, sin embargo todavía no se sabe si \PI +e, \PI/e o ln\PI (e es otro número irracional y trascendente) son irracionales. Aparece en multitud de fórmulas que no están relacionadas con círculos. Es parte de la constante de normalización de la función normal, probablemente la más usada en estadística. 
+\end{frame}
+
+\section{Algunas curiosidades}
+\begin{frame}
+\frametitle{Algunas curiosidades}
+
+Como ya hemos comentado antes, aparece en la solución de multitud de series y multiplicaciones infinitas y es fundamental en el estudio de los números complejos. En Física se le puede encontrar (dependiendo del sistema de unidades usado) en la constante cosmológica (el mayor error de Albert Einstein) o en la constante de permeabilidad magnética del vacío.
+En cualquier base (decimal, binaria?), las cifras decimales de \PI pasan todas las pruebas de aleatoriedad, no se observa ningún patrón ni tendencia. A través de la función zeta de Riemann \PI se encuentra estrechamente relacionado con los números primos.
+Una larga historia para un número que seguro que todavía guarda muchas sorpresas.\cite{link1}
+\end{frame}
+
+\begin{frame}
+\frametitle{Valores del número \PI}
+Aquí tenemos una tabla que resume los distintos valores de \PI, a lo largo de los años:
+
+\begin{tabular}{lcc}
+Matemático o lugar & Año & Valor\\
+\hline
+La Biblia & - & 3\\
+Papiro de Ahmes (Egipto) & 1650 a.C. & 3,16 \\
+Tablilla de Susa (Babilonia) & 1600 a.C. & 3,125 \\
+Bandhayana (India) & 500 a.C. & 3,09\\
+Arquímedes de Siracusa & (287-212 a.C.) & entre $\frac{223}{71} y \frac{220}{70}$\\
+Liu Hui (China) & 260 & 3,1416\\
+Tsu Chung Chih & 480 & entre 3,145926 y 3,1415927\\
+Al-Kashi (Persia) & 1429 & 3,1415926535897932\\
+Franciscus Vieta (Francia) & (1590-1603) & 3,1415926536
+\end{tabular}
+
+\end{frame}
+
+
+
+
+\begin{frame}
+\frametitle{Bibliografía}
+\begin{thebibliography}
+\beamertemplatebookbibitems
+\bibitem[Guia Docente,2013]{guia}
+Guia docente (Año 2013)
+{\small $https://www.ull.es$}
+%\bibitem
+
+\end{thebibliography}
+\end{frame}
+\end{document}

@@ -1,0 +1,11 @@
+\beamer@endinputifotherversion {3.10pt}
+\select@language {spanish}
+\beamer@sectionintoc {1}{Introducci\IeC {\'o}n}{5}{0}{1}
+\beamer@sectionintoc {2}{Historia del n\IeC {\'u}mero {$\pi $}}{6}{0}{2}
+\beamer@subsectionintoc {2}{1}{El n\IeC {\'u}mero {$\pi $}en la antig\IeC {\"u}edad}{7}{0}{2}
+\beamer@subsectionintoc {2}{2}{El n\IeC {\'u}mero {$\pi $}en la antig\IeC {\"u}edad}{8}{0}{2}
+\beamer@subsectionintoc {2}{3}{El m\IeC {\'e}todo de Arqu\IeC {\'\i }medes}{9}{0}{2}
+\beamer@subsectionintoc {2}{4}{El m\IeC {\'e}todo de Arqu\IeC {\'\i }medes}{10}{0}{2}
+\beamer@subsectionintoc {2}{5}{El n\IeC {\'u}mero {$\pi $}en la Edad Moderna y Contempor\IeC {\'a}nea}{11}{0}{2}
+\beamer@sectionintoc {3}{Algunas curiosidades}{14}{0}{3}
+\beamer@sectionintoc {4}{Algunas curiosidades}{15}{0}{4}
